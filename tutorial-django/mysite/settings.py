@@ -103,7 +103,8 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATE_DIRS = (
-    '/Users/mayza/globocom/playground/tutorial-django/mysite/templates/',
+    '/Users/mayza/globocom/playground/tutorial-django/mysite/template',
+    '/Users/mayza/globocom/playground/tutorial-django/mysite/polls/template'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
